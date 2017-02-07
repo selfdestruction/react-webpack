@@ -4,8 +4,8 @@ const webpack = require('webpack');
 module.exports = {
     context: path.resolve(__dirname, './src'),
     entry: {
-        app: './app.js',
-        vendor: ['react', 'react-dom', 'rxjs'],
+        app: './app.js'
+        // vendor: ['react', 'react-dom', 'rxjs'],
     },
     output: {
         filename: '[name].bundle.js',
