@@ -19,8 +19,6 @@ var my_news = [
     }
 ];
 
-
-
 const App = React.createClass({
     render: function () {
         return (

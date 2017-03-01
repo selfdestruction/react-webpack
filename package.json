@@ -4,6 +4,7 @@
   "description": "",
   "main": "src/app.js",
   "scripts": {
+    "start": "rm -rf dist/ | webpack | webpack-dev-server",
     "test": "test"
   },
   "author": "selfdestruction",

@@ -13,7 +13,9 @@ module.exports = {
         publicPath: '/assets'
     },
     devServer: {
-      contentBase: path.resolve(__dirname, './src')
+        contentBase: path.resolve(__dirname, './src'),
+        compress: true,
+        port: 9000
     },
     plugins: [
         new webpack.optimize.CommonsChunkPlugin({
